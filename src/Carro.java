@@ -4,9 +4,11 @@ class Carro {
     boolean zerokm = true;
     String tipo;
     int portas;
-    String proprietario;
+    Pessoa proprietario;
+    //private Pessoa proprietario;
+    //Pessoa proprietario = new Pessoa(); -> também pode ser feito
 
-    public boolean transferenciaDeProprietario(String novodono) {
+    public boolean transferenciaDeProprietario(Pessoa novodono) {
         this.proprietario = novodono;
         this.zerokm = false;
         System.out.println("transferència executada com sucesso");

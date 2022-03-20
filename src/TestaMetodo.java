@@ -4,7 +4,9 @@ public class TestaMetodo {
 
         Carro chevete = new Carro();
 
-        fusca.transferenciaDeProprietario("alex");
+
+
+        //fusca.transferenciaDeProprietario("alex");
 
         System.out.println(fusca.proprietario);
         System.out.println(fusca.zerokm);
@@ -16,7 +18,7 @@ public class TestaMetodo {
 
         System.out.println(chevete.cor);
 
-        
+
 
 
 
